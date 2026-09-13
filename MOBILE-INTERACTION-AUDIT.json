@@ -1,0 +1,90 @@
+[
+  {
+    "screen": 0,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 1,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 2,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 3,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 4,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 5,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 6,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 7,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 8,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 9,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 10,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "screen": 11,
+    "open": true,
+    "fits": true,
+    "imageLoaded": true
+  },
+  {
+    "href": "#problem",
+    "headingBelowNav": true
+  },
+  {
+    "href": "#duo",
+    "headingBelowNav": true
+  },
+  {
+    "href": "#prototype",
+    "headingBelowNav": true
+  },
+  {
+    "href": "#testing",
+    "headingBelowNav": true
+  }
+]

@@ -1,0 +1,309 @@
+{
+  "report": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 360,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 414,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 667,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 844,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "index.html",
+      "axe": []
+    },
+    {
+      "file": "terms.html",
+      "width": 320,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 360,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 390,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 414,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 667,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 768,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 844,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 1024,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "width": 1440,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "terms.html",
+      "axe": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 320,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 360,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 390,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 414,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 667,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 768,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 844,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 1024,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "width": 1440,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "privacy.html",
+      "axe": []
+    },
+    {
+      "file": "accessibility.html",
+      "width": 320,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 360,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 390,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 414,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 667,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 768,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 844,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 1024,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "width": 1440,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "accessibility.html",
+      "axe": []
+    },
+    {
+      "file": "demo.html",
+      "width": 320,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 360,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 390,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 414,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 667,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 768,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 844,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 1024,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "width": 1440,
+      "overflow": false,
+      "bannerRemoved": true
+    },
+    {
+      "file": "demo.html",
+      "axe": []
+    },
+    {
+      "tableScroll": 0,
+      "tableWidth": 281.625
+    },
+    {
+      "progressTop": 0,
+      "progressWidth": 232.65625
+    },
+    {
+      "text200": false
+    },
+    {
+      "outside": []
+    }
+  ],
+  "errors": []
+}
