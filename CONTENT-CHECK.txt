@@ -1,0 +1,8 @@
+Original text fragments: 214
+Missing fragments: []
+Original image elements: 37
+Restored image elements: 37
+Original sections: 12
+Restored sections: 12
+
+Academic notice update: 12 sections, 37 images and all 4 comparison rows retained. Selected copy intentionally updated to future-service/demo wording as requested. Exact permanent notice on all 5 pages.

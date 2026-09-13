@@ -1,458 +1,380 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html dir="rtl" lang="he">
+<head><meta name="build-version" content="deep-green">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>עזרה בקטנה — שכנים עוזרים לשכנים, בקטנה</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<div id="progress"><div id="progress-bar"></div></div>
-<div id="dotnav"></div>
-<header id="top">
-  <div class="bar">
-    <div class="brandmark"><img src="assets/logo.png" data-key="LOGO" alt=""><span>עזרה בקטנה</span></div>
-    <nav>
-      <a href="#problem">הבעיה</a>
-      <a href="#duo">המסעות</a>
-      <a href="#prototype">האב טיפוס</a>
-      <a href="#testing">בדיקות</a>
-    </nav>
-  </div>
-</header>
-
-<!-- ================= HERO ================= -->
-<section id="hero" data-theme="dark">
-  <span class="orb orb1"></span><span class="orb orb2"></span><span class="orb orb3"></span><span class="orb orb4"></span>
-  <div class="wrap">
-    <div class="content">
-      <div class="eyebrow"><span class="en">INVESTOR PRESENTATION</span></div>
-      <h1>עזרה בקטנה</h1>
-      <p class="tagline">שכנים עוזרים לשכנים, בקטנה</p>
-      <p class="sub">אפליקציה קהילתית שהופכת כמה דקות פנויות של שכן אחד — לעזרה אמיתית וזמינה לשכן ממש לידו.</p>
-      <button class="cta" id="hero-cta">
-        <span class="ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M6 14l6 6 6-6"/></svg></span>
+<link href="styles.2cea383bbc.css" rel="stylesheet"/>
+<meta content="no-referrer" name="referrer"/><meta content="עזרה בקטנה — המחקר, הפרסונות, מסעות המשתמש, השוואת המתחרים, אב הטיפוס ותוצאות הבדיקות." name="description"/><link href="premium.f4a24f4c4c.css" rel="stylesheet"/></head>
+<body><a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
+<div aria-hidden="true" id="progress"><div id="progress-bar"></div></div>
+<div class="site-chrome"><div aria-label="סטטוס הפרויקט" class="academic-notice" role="note">פרויקט גמר אקדמי · אינו שירות פעיל</div><header id="top">
+<div class="bar">
+<div class="brandmark"><img alt="" data-key="LOGO" decoding="async" loading="lazy" src="assets/logo.png"/><span>עזרה בקטנה</span></div>
+<nav aria-label="ניווט ראשי">
+<a href="#problem">הבעיה</a>
+<a href="#duo">המסעות</a>
+<a href="#prototype">האב טיפוס</a>
+<a href="#testing">בדיקות</a>
+</nav>
+<button aria-haspopup="dialog" class="settings-button" data-open="access-panel">נגישות ותנועה</button></div>
+</header></div><main id="main" tabindex="-1"><section data-theme="dark" id="hero"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i><i style="--x:12%;--y:17%;--delay:-13.6s;--duration:30s"></i><i style="--x:49%;--y:40%;--delay:-15.299999999999999s;--duration:34s"></i><i style="--x:86%;--y:63%;--delay:-17.0s;--duration:18s"></i><i style="--x:26%;--y:86%;--delay:-18.7s;--duration:22s"></i><i style="--x:63%;--y:20%;--delay:-20.4s;--duration:26s"></i><i style="--x:3%;--y:43%;--delay:-22.099999999999998s;--duration:30s"></i><i style="--x:40%;--y:66%;--delay:-23.8s;--duration:34s"></i><i style="--x:77%;--y:0%;--delay:-25.5s;--duration:18s"></i><i style="--x:22%;--y:14%;--delay:-20.8s;--duration:26s"></i><i style="--x:65%;--y:43%;--delay:-22.1s;--duration:30s"></i><i style="--x:11%;--y:72%;--delay:-23.400000000000002s;--duration:34s"></i><i style="--x:54%;--y:10%;--delay:-24.7s;--duration:38s"></i><i style="--x:0%;--y:39%;--delay:-26.0s;--duration:22s"></i><i style="--x:43%;--y:68%;--delay:-27.3s;--duration:26s"></i><i style="--x:86%;--y:6%;--delay:-28.6s;--duration:30s"></i><i style="--x:32%;--y:35%;--delay:-29.900000000000002s;--duration:34s"></i><i style="--x:75%;--y:64%;--delay:-31.200000000000003s;--duration:38s"></i><i style="--x:21%;--y:2%;--delay:-32.5s;--duration:22s"></i><i style="--x:64%;--y:31%;--delay:-33.800000000000004s;--duration:26s"></i><i style="--x:10%;--y:60%;--delay:-35.1s;--duration:30s"></i><i style="--x:53%;--y:89%;--delay:-36.4s;--duration:34s"></i><i style="--x:96%;--y:27%;--delay:-37.7s;--duration:38s"></i><i style="--x:42%;--y:56%;--delay:-39.0s;--duration:22s"></i><i style="--x:85%;--y:85%;--delay:-40.300000000000004s;--duration:26s"></i></div><svg class="section-wave wave-hero" viewBox="0 0 1440 64" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 32 C360 66 990 -4 1440 32 L1440 64 L0 64 Z"/></svg>
+<div class="wrap">
+<div class="content">
+<div class="project-label">מחיבור קטן לעזרה אמיתית</div><div class="eyebrow"><span class="en" dir="ltr" lang="en">INVESTOR PRESENTATION</span></div>
+<h1>עזרה בקטנה</h1>
+<p class="tagline">שכנים עוזרים לשכנים, בקטנה</p>
+<p class="sub">חזון המוצר: אפליקציה קהילתית שתהפוך כמה דקות פנויות של שכן אחד לעזרה אמיתית וזמינה לשכן ממש לידו. כאן מוצג אב־טיפוס אקדמי להמחשת הרעיון.</p>
+<button class="cta" id="hero-cta">
+<span class="ring"><svg aria-hidden="true" fill="none" focusable="false" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 4v16M6 14l6 6 6-6"></path></svg></span>
         לגלות איך זה עובד
       </button>
-      <div class="proto-links hero-proto-link">
-        <a class="ghost" href="https://ezra-baktana.netlify.app" target="_blank" rel="noopener">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5C8 2.7 8.7 2 9.5 2h5c.8 0 1.5.7 1.5 1.5v17c0 .8-.7 1.5-1.5 1.5h-5c-.8 0-1.5-.7-1.5-1.5v-17z"/><path d="M11 18.3h2"/></svg>
+<div class="proto-links hero-proto-link">
+<a aria-label="אב טיפוס — ezra-baktana.netlify.app — מעבר לעמוד ההסכמה להדגמה" class="ghost prototype-glow" href="demo.html" rel="noopener">
+<svg aria-hidden="true" fill="none" focusable="false" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M8 3.5C8 2.7 8.7 2 9.5 2h5c.8 0 1.5.7 1.5 1.5v17c0 .8-.7 1.5-1.5 1.5h-5c-.8 0-1.5-.7-1.5-1.5v-17z"></path><path d="M11 18.3h2"></path></svg>
           אב טיפוס — ezra-baktana.netlify.app
         </a>
-      </div>
-      <div class="team">עדיאל חמו · רן בן חמו · חן קדוש · עידו אילוז · דרור יוגב · עידו שדמי
+<p class="prototype-status">אב־טיפוס לצורכי הדגמה בלבד</p></div>
+<div class="team">עדיאל חמו · רן בן חמו · חן קדוש · עידו אילוז · דרור יוגב · עידו שדמי
         <div class="school">האקדמית עמק יזרעאל ע"ש מקס שטרן</div>
-      </div>
+</div>
+</div>
+<div class="hero-visual"><div class="stage" id="hero-stage">
+<div class="stage-glow"></div>
+<div class="stage-inner" id="stage-inner">
+<div class="phone phone-back"><img alt="מסך הצ׳אט באב הטיפוס" data-key="SHOT_CHAT" decoding="async" src="assets/shot_chat.jpg"/></div>
+<div class="phone phone-front"><img alt="מסך הבית באב הטיפוס" data-key="SHOT_HOME" decoding="async" src="assets/shot_home.jpg"/></div>
+</div>
+<div aria-hidden="true" class="stage-orbit"></div><div class="stage-info"><span>THE PRODUCT, IN MOTION</span><span>שני צדדים. חיבור אחד.</span></div></div><div class="floating-messages" role="group" aria-label="הודעות לדוגמה להמחשת הרעיון בלבד"><ol class="chat-messages"><li class="chat-message sent"><p>יש לך כמה דקות ביום לעזור?</p></li><li class="chat-message received"><p>כן, בשמחה!</p></li><li class="chat-message sent"><p>קדימה, בואו נעשה למישהו את היום.</p></li></ol></div></div>
+</div>
+</section><section class="section-pad" data-theme="light" id="problem">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">THE PROBLEM</span></div>
+<h2 class="mask-reveal"><span>המבוכה שבבקשה</span></h2>
+<p class="lede">החיים בשכונה הם תן וקח — אבל קשה לגשר על הפער בין מי שצריך עזרה למי שיכול לתת אותה, ברגע הנכון.</p>
+</div>
+<div class="pain-grid">
+<div class="pain-card tilt reveal reveal-delay-1">
+<div class="num">01</div>
+<h3>המבוכה שבבקשה</h3>
+<p>אנשים מתביישים לפנות לשכנים גם כשהם צריכים עזרה קטנה וגם כשהם מוכנים לתת אותה.</p>
+<p class="quote">"אנשים פשוט מתביישים לבקש עזרה" — נועם אזולאי, ריאיון מחקר</p>
+</div>
+<div class="pain-card tilt reveal reveal-delay-2">
+<div class="num">02</div>
+<h3>אין זמן להתנדבות מסודרת</h3>
+<p>לו"ז עמוס לא מאפשר להתחייב למסגרת התנדבות קבועה או לחונכות שבועית — גם למי שרוצה לעזור.</p>
+</div>
+<div class="pain-card tilt reveal reveal-delay-3">
+<div class="num">03</div>
+<h3>הפתרונות הקיימים לא מספיקים</h3>
+<p>קבוצות וואטסאפ ופייסבוק שכונתיות הן איטיות, לא ממוקדות מיקום, ולא פועלות בזמן אמת.</p>
+</div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="dark" id="solution"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i><i style="--x:12%;--y:17%;--delay:-13.6s;--duration:30s"></i><i style="--x:49%;--y:40%;--delay:-15.299999999999999s;--duration:34s"></i><i style="--x:86%;--y:63%;--delay:-17.0s;--duration:18s"></i><i style="--x:26%;--y:86%;--delay:-18.7s;--duration:22s"></i><i style="--x:63%;--y:20%;--delay:-20.4s;--duration:26s"></i><i style="--x:3%;--y:43%;--delay:-22.099999999999998s;--duration:30s"></i><i style="--x:40%;--y:66%;--delay:-23.8s;--duration:34s"></i><i style="--x:77%;--y:0%;--delay:-25.5s;--duration:18s"></i><i style="--x:22%;--y:14%;--delay:-20.8s;--duration:26s"></i><i style="--x:65%;--y:43%;--delay:-22.1s;--duration:30s"></i><i style="--x:11%;--y:72%;--delay:-23.400000000000002s;--duration:34s"></i><i style="--x:54%;--y:10%;--delay:-24.7s;--duration:38s"></i><i style="--x:0%;--y:39%;--delay:-26.0s;--duration:22s"></i><i style="--x:43%;--y:68%;--delay:-27.3s;--duration:26s"></i><i style="--x:86%;--y:6%;--delay:-28.6s;--duration:30s"></i><i style="--x:32%;--y:35%;--delay:-29.900000000000002s;--duration:34s"></i><i style="--x:75%;--y:64%;--delay:-31.200000000000003s;--duration:38s"></i><i style="--x:21%;--y:2%;--delay:-32.5s;--duration:22s"></i><i style="--x:64%;--y:31%;--delay:-33.800000000000004s;--duration:26s"></i><i style="--x:10%;--y:60%;--delay:-35.1s;--duration:30s"></i><i style="--x:53%;--y:89%;--delay:-36.4s;--duration:34s"></i><i style="--x:96%;--y:27%;--delay:-37.7s;--duration:38s"></i><i style="--x:42%;--y:56%;--delay:-39.0s;--duration:22s"></i><i style="--x:85%;--y:85%;--delay:-40.300000000000004s;--duration:26s"></i></div>
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">THE SOLUTION</span></div>
+<h2>עזרה קטנה, בקליק אחד</h2>
+<p class="lede">חזון השירות: אפליקציית מובייל קהילתית וחינמית שבה יהיה אפשר לפרסם בקשת עזרה קטנה, למצוא שכנים זמינים בטווח הליכה ולתאם בצ׳אט פנימי בלי לחשוף מספרי טלפון — באופן ספונטני וללא מחויבות ארוכת טווח. המסכים כאן מדגימים את החוויה המתוכננת; הם אינם שירות עזרה פעיל.</p>
+</div>
+<div class="flow-row">
+<div class="flow-step reveal reveal-delay-1"><div class="stepnum">1</div><h3>לפרסם בקשה</h3><p>בשני קליקים, בלי הקלדה חופשית</p></div>
+<div class="flow-arrow">←</div>
+<div class="flow-step reveal reveal-delay-2"><div class="stepnum">2</div><h3>לאתר משימה קרובה</h3><p>סינון לפי מרחק הליכה בזמן אמת</p></div>
+<div class="flow-arrow">←</div>
+<div class="flow-step reveal reveal-delay-3"><div class="stepnum">3</div><h3>לתאם בצ'אט פנימי</h3><p>בלי לחשוף מספרי טלפון</p></div>
+<div class="flow-arrow">←</div>
+<div class="flow-step reveal reveal-delay-4"><div class="stepnum">4</div><h3>לאשר השלמה</h3><p>חיווי סטטוס לשני הצדדים</p></div>
+</div>
+<p class="solution-footer reveal">היתרון התחרותי: היפר־לוקאלי ומיידי — בלי התחייבות קבועה, בלי עמותה, בלי חשיפת פרטים.</p>
+<div class="stat-row reveal">
+<div class="stat-chip">יעד המוצר: אפליקציית מובייל נייטיב · iOS ו-Android</div>
+<div class="stat-chip">קהל יעד: תושבי שכונה בגילי <b>18–45</b>, אורייניים דיגיטלית</div>
+</div>
+<div class="research-table reveal">
+<div class="rt-head">מהמחקר לעיצוב · כל שורה מתחילה בציטוט אמיתי מריאיון ומסתיימת ברכיב קיים באב הטיפוס</div>
+<div class="rt-row">
+<div class="rt-quote">"אנשים פשוט מתביישים לבקש עזרה"<span class="src">נועם אזולאי</span></div>
+<div class="rt-arrow">←</div>
+<div class="rt-feature">בקשה מתפרסמת דרך האפליקציה — לא ישירות מול שכן, בלי עימות פנים מול פנים</div>
+</div>
+<div class="rt-row">
+<div class="rt-quote">"תראו לי רק מה שנמצא בטווח הליכה ממני עכשיו"<span class="src">נועם אזולאי</span></div>
+<div class="rt-arrow">←</div>
+<div class="rt-feature">תווית מרחק וזמן משוער על כל כרטיס משימה</div>
+</div>
+<div class="rt-row">
+<div class="rt-quote">"משהו קטן ומהיר שלא ישבש לי את הלו״ז"<span class="src">מאיה</span></div>
+<div class="rt-arrow">←</div>
+<div class="rt-feature">כרטיס "זמן משוער" מחושב בראש מסך פרטי הבקשה</div>
+</div>
+<div class="rt-row">
+<div class="rt-quote">"אפס חיכוך: לקיחת משימה בקליק, ביד אחת, בלי הקלדה"<span class="src">נועם אזולאי</span></div>
+<div class="rt-arrow">←</div>
+<div class="rt-feature">כפתור פעולה יחיד וענק — עקרון ה-Big Target</div>
+</div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="light" id="market">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">MARKET &amp; COMPETITION</span></div>
+<h2>מצב קיים ומתחרים</h2>
+<p class="lede">שני מקורות השראה קרובים — ובמה עזרה בקטנה שונה מהם במהות.</p>
+</div>
+<div aria-label="טבלת השוואה. במסך צר אפשר לגלול לרוחב." class="comp-wrap tilt reveal" role="region" tabindex="0">
+<table class="comparison"><caption>השוואת המתחרים מתוך מחקר הפרויקט — עמודת עזרה בקטנה מתארת יכולות מתוכננות ומודגמות באב הטיפוס</caption><thead><tr><th class="comp-feature" scope="col">יכולות מרכזיות</th><th class="comp-col" scope="col"><span class="comp-logo"><img alt="" decoding="async" loading="lazy" src="assets/logo_nextdoor.png"/></span>Nextdoor</th><th class="comp-col" scope="col"><span class="comp-logo comp-logo-olio"><img alt="" decoding="async" loading="lazy" src="assets/logo_olio.png"/></span>Olio</th><th class="comp-col comp-hero" scope="col"><span class="comp-logo"><img alt="" decoding="async" loading="lazy" src="assets/logo.png"/></span>עזרה בקטנה</th></tr></thead><tbody><tr><th class="comp-feature" scope="row">פוקוס בעזרה מיידית וקטנה, לא רשת שכונתית כללית</th><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col comp-hero"><span aria-label="כן" class="mark yes" role="img">✓</span></td></tr><tr><th class="comp-feature" scope="row">סינון משימות לפי מרחק הליכה בזמן אמת (GPS)</th><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col comp-hero"><span aria-label="כן" class="mark yes" role="img">✓</span></td></tr><tr><th class="comp-feature" scope="row">תיאום בצ'אט פנימי בלי חשיפת מספר טלפון</th><td class="comp-col"><span aria-label="כן" class="mark yes" role="img">✓</span></td><td class="comp-col"><span aria-label="כן" class="mark yes" role="img">✓</span></td><td class="comp-col comp-hero"><span aria-label="כן" class="mark yes" role="img">✓</span></td></tr><tr><th class="comp-feature" scope="row">לקיחת משימה בהקשה אחת, בלי הקלדה חופשית</th><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col"><span aria-label="לא" class="mark no" role="img">✗</span></td><td class="comp-col comp-hero"><span aria-label="כן" class="mark yes" role="img">✓</span></td></tr></tbody></table>
+</div><p class="source-note">הטבלה משחזרת את ממצאי מחקר הקורס כפי שסופקו. הסימונים אינם בדיקה עדכנית של כל יכולות המתחרים.</p>
+</div>
+</section><section data-theme="light" id="regulatory">
+<div class="wrap">
+<div class="reg-box reveal">
+<div class="reg-icon"><svg aria-hidden="true" fill="none" focusable="false" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"></path></svg></div>
+<div class="reg-text">
+<h3>מצב רגולטורי</h3>
+<p>עזרה בקטנה היא פרויקט גמר אקדמי המדגים חזון לפלטפורמה קהילתית לעזרה קטנה. הפרויקט אינו מפעיל שירות ציבורי לקבלת עזרה ואינו מספק שירותי טיפול.</p>
+<p>לפני הפעלת שירות עתידי הכולל מיקום (GPS) וצ׳אט יש לבחון את חובות הפרטיות, אבטחת המידע, ההסכמה והרישוי בהתאם לפעילות בפועל. אין בהצגת הפרויקט קביעה שהוא פטור מחובה או מרישוי כלשהם.</p>
+<aside class="legal-context"><strong>הבהרה להיקף הדברים</strong><p>היבטי הרגולציה מתייחסים להיערכות לשירות עתידי. אתר המצגת והאב־טיפוס מיועדים להדגמה בלבד. <a href="terms.html">תנאי שימוש</a> · <a href="privacy.html">מדיניות פרטיות</a></p></aside></div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="light" id="personas">
+<div class="wrap">
+<div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
+<div class="eyebrow" style="justify-content:center;"><span class="en" dir="ltr" lang="en">USERS &amp; PERSONAS</span></div>
+<h2>קהל היעד והפרסונות</h2>
+<p class="lede">תושבי שכונה שרוצים לעזור או להיעזר בקטן — בלי התחייבות ובלי מסגרת.</p>
+</div>
+<div class="persona-grid">
+<div class="persona-card tilt reveal reveal-delay-1">
+<div class="persona-photo"><img alt="נועם" data-key="NOAM" decoding="async" loading="lazy" src="assets/noam.jpg"/><div class="role-chip">הנותן הפיזי</div><div class="tag"><h3>נועם</h3><div class="role">26, סטודנט לסיעוד</div></div></div>
+<div class="persona-body"><p class="quote">אם זה על הדרך שלי — אני בפנים.</p></div>
+</div>
+<div class="persona-card tilt reveal reveal-delay-2">
+<div class="persona-photo"><img alt="מאיה" data-key="MAYA" decoding="async" loading="lazy" src="assets/maya.jpg"/><div class="role-chip">המשתמשת הדואלית</div><div class="tag"><h3>מאיה</h3><div class="role">35, מורה ומחנכת</div></div></div>
+<div class="persona-body"><p class="quote">לפעמים אני פשוט חייבת שמישהו יקפיץ לי משהו מהסופר.</p></div>
+</div>
+<div class="persona-card tilt reveal reveal-delay-3">
+<div class="persona-photo"><img alt="יונתן" data-key="YONATAN" decoding="async" loading="lazy" src="assets/yonatan.jpg"/><div class="role-chip">הנותן הדיגיטלי</div><div class="tag"><h3>יונתן</h3><div class="role">33, מנהל קהילות</div></div></div>
+<div class="persona-body"><p class="quote">אני אולי עובד מאחורי מסך, אבל לראות הודעת תודה — זה הדלק שלי לכל היום.</p></div>
+</div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="dark" id="journey"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i><i style="--x:12%;--y:17%;--delay:-13.6s;--duration:30s"></i><i style="--x:49%;--y:40%;--delay:-15.299999999999999s;--duration:34s"></i><i style="--x:86%;--y:63%;--delay:-17.0s;--duration:18s"></i><i style="--x:26%;--y:86%;--delay:-18.7s;--duration:22s"></i><i style="--x:63%;--y:20%;--delay:-20.4s;--duration:26s"></i><i style="--x:3%;--y:43%;--delay:-22.099999999999998s;--duration:30s"></i><i style="--x:40%;--y:66%;--delay:-23.8s;--duration:34s"></i><i style="--x:77%;--y:0%;--delay:-25.5s;--duration:18s"></i><i style="--x:22%;--y:14%;--delay:-20.8s;--duration:26s"></i><i style="--x:65%;--y:43%;--delay:-22.1s;--duration:30s"></i><i style="--x:11%;--y:72%;--delay:-23.400000000000002s;--duration:34s"></i><i style="--x:54%;--y:10%;--delay:-24.7s;--duration:38s"></i><i style="--x:0%;--y:39%;--delay:-26.0s;--duration:22s"></i><i style="--x:43%;--y:68%;--delay:-27.3s;--duration:26s"></i><i style="--x:86%;--y:6%;--delay:-28.6s;--duration:30s"></i><i style="--x:32%;--y:35%;--delay:-29.900000000000002s;--duration:34s"></i><i style="--x:75%;--y:64%;--delay:-31.200000000000003s;--duration:38s"></i><i style="--x:21%;--y:2%;--delay:-32.5s;--duration:22s"></i><i style="--x:64%;--y:31%;--delay:-33.800000000000004s;--duration:26s"></i><i style="--x:10%;--y:60%;--delay:-35.1s;--duration:30s"></i><i style="--x:53%;--y:89%;--delay:-36.4s;--duration:34s"></i><i style="--x:96%;--y:27%;--delay:-37.7s;--duration:38s"></i><i style="--x:42%;--y:56%;--delay:-39.0s;--duration:22s"></i><i style="--x:85%;--y:85%;--delay:-40.300000000000004s;--duration:26s"></i></div>
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">SCENARIO &amp; INSIGHT</span></div>
+<h2>מהמחקר למסע: נועם, בדרך למשמרת</h2>
+<p class="lede">נועם יוצא מהבית לכיוון המשמרת בבית החולים. הוא רוצה לראות אם יש משימה קצרה שנמצאת ממש על המסלול שלו — בלי סטייה ובלי לאחר.</p>
+<p class="scenario-context">התרחישים והמסכים מדגימים את חוויית השירות המתוכננת במסגרת הפרויקט האקדמי.</p></div>
+<div class="journey-chart-wrap reveal">
+<svg aria-label="המחשת מסע נועם: החוויה יורדת בשלב ההתראה, ולאחר מכן משתפרת עד לסגירה ואישור. הגרף אינו מדידה כמותית." focusable="false" id="journey-svg" role="img" style="width:100%;height:auto;" viewbox="0 0 900 260">
+<line stroke="rgba(255,255,255,0.15)" stroke-width="1" x1="30" x2="30" y1="20" y2="220"></line>
+<line stroke="rgba(255,255,255,0.15)" stroke-width="1" x1="30" x2="880" y1="220" y2="220"></line>
+<text fill="rgba(255,255,255,0.4)" font-size="12" x="10" y="24">5</text>
+<text fill="rgba(255,255,255,0.4)" font-size="12" x="10" y="124">2.5</text>
+<text fill="rgba(255,255,255,0.4)" font-size="12" x="10" y="222">0</text>
+<path d="M 60 90 L 220 190 L 380 130 L 540 100 L 700 70 L 860 45" fill="none" stroke="#2FAB92" stroke-width="2.5"></path>
+<circle cx="60" cy="90" fill="#2FAB92" r="5"></circle>
+<circle cx="220" cy="190" fill="#EF7B4E" r="7"></circle>
+<circle cx="380" cy="130" fill="#2FAB92" r="5"></circle>
+<circle cx="540" cy="100" fill="#2FAB92" r="5"></circle>
+<circle cx="700" cy="70" fill="#2FAB92" r="5"></circle>
+<circle cx="860" cy="45" fill="#2FAB92" r="5"></circle>
+</svg>
+<div class="journey-labels">
+<span>יציאה מהבית</span>
+<span class="critical">קבלת התראה<br/>(נקודת נטישה)</span>
+<span>בדיקת המשימה</span>
+<span>לקיחה וניווט</span>
+<span>ביצוע העזרה</span>
+<span>סגירה ואישור</span>
+</div>
+<p class="chart-note">המחשה איכותנית של חוויית המשתמש בתרחיש; ערכי התרשים אינם מדידה כמותית.</p></div>
+<div class="journey-callout">
+<div class="card reveal reveal-delay-1">
+<div class="tag">נקודת הנטישה</div>
+<p>אם ההתראה לא עונה תוך שניות על "כמה זמן" ו"כמה רחוק" — נועם סוגר את האפליקציה וממשיך למשמרת.</p>
+</div>
+<div class="card reveal reveal-delay-2">
+<div class="tag">ההשלכה על העיצוב</div>
+<p>לכן במסך ההתראה עצמו מוצגים כבר מרחק וזמן משוער, לפני שהמשתמש בכלל פותח את האפליקציה.</p>
+</div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="light" id="duo">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">TWO SIDES, ONE PLATFORM</span></div>
+<h2 class="mask-reveal"><span>שני מסעות: נותן עזרה ומקבל עזרה</span></h2>
+<p class="lede">מסך הבית הוא השער לשני המסעות בו־זמנית — אף פעולה לא "ראשית" על חשבון השנייה, כדי שהאפליקציה תרגיש כמו רשת הדדית אמיתית, לא ככלי התנדבות "שאפשר גם לבקש בו".</p>
+<p class="scenario-context">התרחישים והמסכים מדגימים את חוויית השירות המתוכננת במסגרת הפרויקט האקדמי.</p></div>
+<div class="duo-grid">
+<div class="duo-card giver tilt reveal reveal-delay-1">
+<div class="who"><img alt="נועם" data-key="NOAM" decoding="async" loading="lazy" src="assets/noam.jpg"/><div><div class="name">נועם — הנותן</div><div class="role">פרסונה א׳ · מוצא ולוקח בקשה קיימת</div></div></div>
+<div class="scenario">תרחיש: בדרך למשמרת, נועם מקבל התראה על בקשה קרובה, בודק מרחק וזמן, ולוקח אותה. ארבעה מסכים: התראת פוש ← פרטי הבקשה ← צ'אט פנימי ← סיום ודירוג. חץ מקווקו = חזרה למסך הבית.</div>
+<div class="flow-img"><img alt="מסע נועם" data-key="FLOW_A" decoding="async" loading="lazy" src="assets/flow_a.jpg"/></div>
+</div>
+<div class="duo-card receiver tilt reveal reveal-delay-2">
+<div class="who"><img alt="מאיה" data-key="MAYA" decoding="async" loading="lazy" src="assets/maya.jpg"/><div><div class="name">מאיה — המבקשת</div><div class="role">פרסונה ב׳ · פותחת בקשת עזרה חדשה</div></div></div>
+<div class="scenario">תרחיש: מאיה צריכה עזרה עכשיו, פותחת בקשה עם קטגוריה ודחיפות, ממתינה למענה בזמן אמת, ובוחרת אם לאשר את המתנדב שנענה או לחפש אחר. ארכיטקטורת מסכים נפרדת לגמרי ממסלול נועם: בקשת עזרה ← המתנה למענה ← פרופיל המתנדב ← צ'אט פנימי, עם לולאת "חיפוש מתנדב אחר".</div>
+<div class="flow-img"><img alt="מסע מאיה" data-key="FLOW_B" decoding="async" loading="lazy" src="assets/flow_b.jpg"/></div>
+</div>
+</div>
+<div class="duo-note reveal">
+<b>12 מסכים · 2 מסעות · אב טיפוס אחד.</b> כל שנים עשר המסכים — משני הצדדים — מוצגים בפועל בגלריה שבהמשך.
     </div>
-    <div class="stage" id="hero-stage">
-      <div class="stage-glow"></div>
-      <div class="stage-inner" id="stage-inner">
-        <div class="phone phone-back"><img src="assets/shot_chat.jpg" data-key="SHOT_CHAT" alt=""></div>
-        <div class="phone phone-front"><img src="assets/shot_home.jpg" data-key="SHOT_HOME" alt=""></div>
-      </div>
-    </div>
-  </div>
-  <div class="section-divider" aria-hidden="true">
-    <svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0,38 C400,85 1040,-8 1440,38 L1440,70 L0,70 Z" fill="#F3F6F4"></path></svg>
-  </div>
-</section>
-
-<!-- ================= PROBLEM ================= -->
-<section id="problem" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">THE PROBLEM</span></div>
-      <h2 class="mask-reveal"><span>המבוכה שבבקשה</span></h2>
-      <p class="lede">החיים בשכונה הם תן וקח — אבל קשה לגשר על הפער בין מי שצריך עזרה למי שיכול לתת אותה, ברגע הנכון.</p>
-    </div>
-    <div class="pain-grid">
-      <div class="pain-card tilt reveal reveal-delay-1">
-        <div class="num">01</div>
-        <h3>המבוכה שבבקשה</h3>
-        <p>אנשים מתביישים לפנות לשכנים גם כשהם צריכים עזרה קטנה וגם כשהם מוכנים לתת אותה.</p>
-        <p class="quote">"אנשים פשוט מתביישים לבקש עזרה" — נועם אזולאי, ריאיון מחקר</p>
-      </div>
-      <div class="pain-card tilt reveal reveal-delay-2">
-        <div class="num">02</div>
-        <h3>אין זמן להתנדבות מסודרת</h3>
-        <p>לו"ז עמוס לא מאפשר להתחייב למסגרת התנדבות קבועה או לחונכות שבועית — גם למי שרוצה לעזור.</p>
-      </div>
-      <div class="pain-card tilt reveal reveal-delay-3">
-        <div class="num">03</div>
-        <h3>הפתרונות הקיימים לא מספיקים</h3>
-        <p>קבוצות וואטסאפ ופייסבוק שכונתיות הן איטיות, לא ממוקדות מיקום, ולא פועלות בזמן אמת.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= SOLUTION ================= -->
-<section id="solution" class="section-pad" data-theme="dark">
-  <div class="grain"></div>
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">THE SOLUTION</span></div>
-      <h2>עזרה קטנה, בקליק אחד</h2>
-      <p class="lede">אפליקציית מובייל קהילתית וחינמית: מפרסמים בקשת עזרה קטנה בקליק, שכנים בטווח הליכה רואים אותה בזמן אמת, ומתאמים בצ'אט פנימי בלי לחשוף מספרי טלפון — הכל ספונטני, מהיר, ובלי מחויבות ארוכת טווח.</p>
-    </div>
-    <div class="flow-row">
-      <div class="flow-step reveal reveal-delay-1"><div class="stepnum">1</div><h4>לפרסם בקשה</h4><p>בשני קליקים, בלי הקלדה חופשית</p></div>
-      <div class="flow-arrow">←</div>
-      <div class="flow-step reveal reveal-delay-2"><div class="stepnum">2</div><h4>לאתר משימה קרובה</h4><p>סינון לפי מרחק הליכה בזמן אמת</p></div>
-      <div class="flow-arrow">←</div>
-      <div class="flow-step reveal reveal-delay-3"><div class="stepnum">3</div><h4>לתאם בצ'אט פנימי</h4><p>בלי לחשוף מספרי טלפון</p></div>
-      <div class="flow-arrow">←</div>
-      <div class="flow-step reveal reveal-delay-4"><div class="stepnum">4</div><h4>לאשר השלמה</h4><p>חיווי סטטוס לשני הצדדים</p></div>
-    </div>
-    <p class="solution-footer reveal">היתרון התחרותי: היפר־לוקאלי ומיידי — בלי התחייבות קבועה, בלי עמותה, בלי חשיפת פרטים.</p>
-    <div class="stat-row reveal">
-      <div class="stat-chip">אפליקציית מובייל נייטיב · iOS ו-Android</div>
-      <div class="stat-chip">קהל יעד: תושבי שכונה בגילי <b>18–45</b>, אורייניים דיגיטלית</div>
-    </div>
-
-    <div class="research-table reveal">
-      <div class="rt-head">מהמחקר לעיצוב · כל שורה מתחילה בציטוט אמיתי מריאיון ומסתיימת ברכיב קיים באב הטיפוס</div>
-      <div class="rt-row">
-        <div class="rt-quote">"אנשים פשוט מתביישים לבקש עזרה"<span class="src">נועם אזולאי</span></div>
-        <div class="rt-arrow">←</div>
-        <div class="rt-feature">בקשה מתפרסמת דרך האפליקציה — לא ישירות מול שכן, בלי עימות פנים מול פנים</div>
-      </div>
-      <div class="rt-row">
-        <div class="rt-quote">"תראו לי רק מה שנמצא בטווח הליכה ממני עכשיו"<span class="src">נועם אזולאי</span></div>
-        <div class="rt-arrow">←</div>
-        <div class="rt-feature">תווית מרחק וזמן משוער על כל כרטיס משימה</div>
-      </div>
-      <div class="rt-row">
-        <div class="rt-quote">"משהו קטן ומהיר שלא ישבש לי את הלו״ז"<span class="src">מאיה</span></div>
-        <div class="rt-arrow">←</div>
-        <div class="rt-feature">כרטיס "זמן משוער" מחושב בראש מסך פרטי הבקשה</div>
-      </div>
-      <div class="rt-row">
-        <div class="rt-quote">"אפס חיכוך: לקיחת משימה בקליק, ביד אחת, בלי הקלדה"<span class="src">נועם אזולאי</span></div>
-        <div class="rt-arrow">←</div>
-        <div class="rt-feature">כפתור פעולה יחיד וענק — עקרון ה-Big Target</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= MARKET & COMPETITION ================= -->
-<section id="market" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">MARKET &amp; COMPETITION</span></div>
-      <h2>מצב קיים ומתחרים</h2>
-      <p class="lede">שני מקורות השראה קרובים — ובמה עזרה בקטנה שונה מהם במהות.</p>
-    </div>
-    <div class="comp-wrap tilt reveal">
-      <div class="comp-grid">
-        <div class="comp-row comp-head">
-          <div class="comp-feature"></div>
-          <div class="comp-col"><span class="comp-logo"><img src="assets/logo_nextdoor.png" alt=""></span>Nextdoor</div>
-          <div class="comp-col"><span class="comp-logo comp-logo-olio"><img src="assets/logo_olio.png" alt=""></span>Olio</div>
-          <div class="comp-col comp-hero"><span class="comp-logo"><img src="assets/logo.png" alt=""></span>עזרה בקטנה</div>
-        </div>
-        <div class="comp-row">
-          <div class="comp-feature">פוקוס בעזרה מיידית וקטנה, לא רשת שכונתית כללית</div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col comp-hero"><span class="mark yes">✓</span></div>
-        </div>
-        <div class="comp-row">
-          <div class="comp-feature">סינון משימות לפי מרחק הליכה בזמן אמת (GPS)</div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col comp-hero"><span class="mark yes">✓</span></div>
-        </div>
-        <div class="comp-row">
-          <div class="comp-feature">תיאום בצ'אט פנימי בלי חשיפת מספר טלפון</div>
-          <div class="comp-col"><span class="mark yes">✓</span></div>
-          <div class="comp-col"><span class="mark yes">✓</span></div>
-          <div class="comp-col comp-hero"><span class="mark yes">✓</span></div>
-        </div>
-        <div class="comp-row">
-          <div class="comp-feature">לקיחת משימה בהקשה אחת, בלי הקלדה חופשית</div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col"><span class="mark no">✗</span></div>
-          <div class="comp-col comp-hero"><span class="mark yes">✓</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= REGULATORY ================= -->
-<section id="regulatory" data-theme="light">
-  <div class="wrap">
-    <div class="reg-box reveal">
-      <div class="reg-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5l8-3z"/></svg></div>
-      <div class="reg-text">
-        <h3>מצב רגולטורי</h3>
-        <p>עזרה בקטנה פועלת כפלטפורמת קהילה לא ממוסדת — לא עמותה, ואינה מעניקה שירותי טיפול פורמליים. בשלב זה אינה כפופה לרישוי ייעודי.</p>
-        <p>עם זאת: שימוש במיקום (GPS) ובצ'אט פנימי מחייב עמידה בחוק הגנת הפרטיות ובתקנות אבטחת מידע — כולל הסכמה מפורשת ושקופה של המשתמש לשיתוף מיקום, ומדיניות פרטיות ברורה.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= PERSONAS ================= -->
-<section id="personas" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-      <div class="eyebrow" style="justify-content:center;"><span class="en">USERS &amp; PERSONAS</span></div>
-      <h2>קהל היעד והפרסונות</h2>
-      <p class="lede">תושבי שכונה שרוצים לעזור או להיעזר בקטן — בלי התחייבות ובלי מסגרת.</p>
-    </div>
-    <div class="persona-grid">
-      <div class="persona-card tilt reveal reveal-delay-1">
-        <div class="persona-photo"><img src="assets/noam.jpg" data-key="NOAM" alt="נועם"><div class="role-chip">הנותן הפיזי</div><div class="tag"><h3>נועם</h3><div class="role">26, סטודנט לסיעוד</div></div></div>
-        <div class="persona-body"><p class="quote">אם זה על הדרך שלי — אני בפנים.</p></div>
-      </div>
-      <div class="persona-card tilt reveal reveal-delay-2">
-        <div class="persona-photo"><img src="assets/maya.jpg" data-key="MAYA" alt="מאיה"><div class="role-chip">המשתמשת הדואלית</div><div class="tag"><h3>מאיה</h3><div class="role">35, מורה ומחנכת</div></div></div>
-        <div class="persona-body"><p class="quote">לפעמים אני פשוט חייבת שמישהו יקפיץ לי משהו מהסופר.</p></div>
-      </div>
-      <div class="persona-card tilt reveal reveal-delay-3">
-        <div class="persona-photo"><img src="assets/yonatan.jpg" data-key="YONATAN" alt="יונתן"><div class="role-chip">הנותן הדיגיטלי</div><div class="tag"><h3>יונתן</h3><div class="role">33, מנהל קהילות</div></div></div>
-        <div class="persona-body"><p class="quote">אני אולי עובד מאחורי מסך, אבל לראות הודעת תודה — זה הדלק שלי לכל היום.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= JOURNEY & INSIGHT ================= -->
-<section id="journey" class="section-pad" data-theme="dark">
-  <div class="grain"></div>
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">SCENARIO &amp; INSIGHT</span></div>
-      <h2>מהמחקר למסע: נועם, בדרך למשמרת</h2>
-      <p class="lede">נועם יוצא מהבית לכיוון המשמרת בבית החולים. הוא רוצה לראות אם יש משימה קצרה שנמצאת ממש על המסלול שלו — בלי סטייה ובלי לאחר.</p>
-    </div>
-    <div class="journey-chart-wrap reveal">
-      <svg viewBox="0 0 900 260" style="width:100%;height:auto;" id="journey-svg">
-        <line x1="30" y1="20" x2="30" y2="220" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-        <line x1="30" y1="220" x2="880" y2="220" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-        <text x="10" y="24" fill="rgba(255,255,255,0.4)" font-size="12">5</text>
-        <text x="10" y="124" fill="rgba(255,255,255,0.4)" font-size="12">2.5</text>
-        <text x="10" y="222" fill="rgba(255,255,255,0.4)" font-size="12">0</text>
-        <path d="M 60 90 L 220 190 L 380 130 L 540 100 L 700 70 L 860 45" fill="none" stroke="#2FAB92" stroke-width="2.5" />
-        <circle cx="60" cy="90" r="5" fill="#2FAB92"/>
-        <circle cx="220" cy="190" r="7" fill="#EF7B4E"/>
-        <circle cx="380" cy="130" r="5" fill="#2FAB92"/>
-        <circle cx="540" cy="100" r="5" fill="#2FAB92"/>
-        <circle cx="700" cy="70" r="5" fill="#2FAB92"/>
-        <circle cx="860" cy="45" r="5" fill="#2FAB92"/>
-      </svg>
-      <div class="journey-labels">
-        <span>יציאה מהבית</span>
-        <span class="critical">קבלת התראה<br>(נקודת נטישה)</span>
-        <span>בדיקת המשימה</span>
-        <span>לקיחה וניווט</span>
-        <span>ביצוע העזרה</span>
-        <span>סגירה ואישור</span>
-      </div>
-    </div>
-    <div class="journey-callout">
-      <div class="card reveal reveal-delay-1">
-        <div class="tag">נקודת הנטישה</div>
-        <p>אם ההתראה לא עונה תוך שניות על "כמה זמן" ו"כמה רחוק" — נועם סוגר את האפליקציה וממשיך למשמרת.</p>
-      </div>
-      <div class="card reveal reveal-delay-2">
-        <div class="tag">ההשלכה על העיצוב</div>
-        <p>לכן במסך ההתראה עצמו מוצגים כבר מרחק וזמן משוער, לפני שהמשתמש בכלל פותח את האפליקציה.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= DUAL JOURNEYS ================= -->
-<section id="duo" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">TWO SIDES, ONE PLATFORM</span></div>
-      <h2 class="mask-reveal"><span>שני מסעות: נותן עזרה ומקבל עזרה</span></h2>
-      <p class="lede">מסך הבית הוא השער לשני המסעות בו־זמנית — אף פעולה לא "ראשית" על חשבון השנייה, כדי שהאפליקציה תרגיש כמו רשת הדדית אמיתית, לא ככלי התנדבות "שאפשר גם לבקש בו".</p>
-    </div>
-    <div class="duo-grid">
-      <div class="duo-card giver tilt reveal reveal-delay-1">
-        <div class="who"><img src="assets/noam.jpg" data-key="NOAM" alt="נועם"><div><div class="name">נועם — הנותן</div><div class="role">פרסונה א׳ · מוצא ולוקח בקשה קיימת</div></div></div>
-        <div class="scenario">תרחיש: בדרך למשמרת, נועם מקבל התראה על בקשה קרובה, בודק מרחק וזמן, ולוקח אותה. ארבעה מסכים: התראת פוש ← פרטי הבקשה ← צ'אט פנימי ← סיום ודירוג. חץ מקווקו = חזרה למסך הבית.</div>
-        <div class="flow-img"><img src="assets/flow_a.jpg" data-key="FLOW_A" alt="מסע נועם"></div>
-      </div>
-      <div class="duo-card receiver tilt reveal reveal-delay-2">
-        <div class="who"><img src="assets/maya.jpg" data-key="MAYA" alt="מאיה"><div><div class="name">מאיה — המבקשת</div><div class="role">פרסונה ב׳ · פותחת בקשת עזרה חדשה</div></div></div>
-        <div class="scenario">תרחיש: מאיה צריכה עזרה עכשיו, פותחת בקשה עם קטגוריה ודחיפות, ממתינה למענה בזמן אמת, ובוחרת אם לאשר את המתנדב שנענה או לחפש אחר. ארכיטקטורת מסכים נפרדת לגמרי ממסלול נועם: בקשת עזרה ← המתנה למענה ← פרופיל המתנדב ← צ'אט פנימי, עם לולאת "חיפוש מתנדב אחר".</div>
-        <div class="flow-img"><img src="assets/flow_b.jpg" data-key="FLOW_B" alt="מסע מאיה"></div>
-      </div>
-    </div>
-    <div class="duo-note reveal">
-      <b>12 מסכים · 2 מסעות · אב טיפוס אחד.</b> כל שנים עשר המסכים — משני הצדדים — מוצגים בפועל בגלריה שבהמשך.
-    </div>
-  </div>
-</section>
-
-<!-- ================= SCREENS GALLERY ================= -->
-<section id="screens" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">SCREENS AT A GLANCE</span></div>
-      <h2>שנים עשר מסכים, שני מסעות</h2>
-      <p class="lede">מנעילת הטלפון ועד לדירוג בסיום — כל מסך כפי שהוא נראה באב הטיפוס עצמו, משני צדי הפלטפורמה.</p>
-    </div>
-    <div class="gallery-row-label giver">מסע נועם — הנותן</div>
-    <div class="gallery-strip reveal">
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_lock_thumb.jpg" data-key="SHOT_LOCK_THUMB" alt=""></div><div class="num">1</div><p>נעילה + התראה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_home_thumb.jpg" data-key="SHOT_HOME_THUMB" alt=""></div><div class="num">2</div><p>בית / מפה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_details_thumb.jpg" data-key="SHOT_DETAILS_THUMB" alt=""></div><div class="num">3</div><p>פרטי הבקשה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_nav_thumb.jpg" data-key="SHOT_NAV_THUMB" alt=""></div><div class="num">4</div><p>ניווט</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_chat_thumb.jpg" data-key="SHOT_CHAT_THUMB" alt=""></div><div class="num">5</div><p>צ'אט פנימי</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/shot_feedback_thumb.jpg" data-key="SHOT_FEEDBACK_THUMB" alt=""></div><div class="num">6</div><p>פידבק וסיום</p></div>
-    </div>
-    <div class="gallery-row-label receiver">מסע מאיה — המבקשת</div>
-    <div class="gallery-strip reveal">
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_home.jpg" alt=""></div><div class="num">1</div><p>בית / מפה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_request.jpg" alt=""></div><div class="num">2</div><p>בקשת עזרה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_match.jpg" alt=""></div><div class="num">3</div><p>מתנדב נענה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_tracking.jpg" alt=""></div><div class="num">4</div><p>מעקב אחרי בקשה</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_chat.jpg" alt=""></div><div class="num">5</div><p>צ'אט פנימי</p></div>
-      <div class="gallery-item"><div class="gallery-frame"><img src="assets/maya_complete.jpg" alt=""></div><div class="num">6</div><p>סיום ודירוג</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= PROTOTYPE ================= -->
-<section id="prototype" class="section-pad" data-theme="dark">
-  <div class="grain"></div>
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">THE PROTOTYPE — REAL SCREENS</span></div>
-      <h2>האב טיפוס: מסע נועם, מסך אחר מסך</h2>
-      <p class="lede">React Native + Expo · אפליקציה עובדת, לא מוקאפ סטטי · צילומי מסך אמיתיים מהאב טיפוס.</p>
-    </div>
-    <div class="stat-row reveal">
-      <div class="stat-chip"><b><span class="count-up" data-target="12">0</span></b> מסכים</div>
-      <div class="stat-chip"><b><span class="count-up" data-target="2">0</span></b> מסעות פרסונה</div>
-      <div class="stat-chip">React Native + Expo</div>
-    </div>
-    <div class="device-strip reveal">
-      <div><div class="device"><img src="assets/shot_lock.jpg" data-key="SHOT_LOCK" alt=""></div><p class="device-cap">נעילה + התראת פוש</p></div>
-      <div><div class="device"><img src="assets/shot_home.jpg" data-key="SHOT_HOME" alt=""></div><p class="device-cap">בית / מפה</p></div>
-      <div><div class="device"><img src="assets/shot_details.jpg" data-key="SHOT_DETAILS" alt=""></div><p class="device-cap">פרטי הבקשה</p></div>
-      <div><div class="device"><img src="assets/shot_nav.jpg" data-key="SHOT_NAV" alt=""></div><p class="device-cap">ניווט</p></div>
-      <div><div class="device"><img src="assets/shot_chat.jpg" data-key="SHOT_CHAT" alt=""></div><p class="device-cap">צ'אט פנימי</p></div>
-      <div><div class="device"><img src="assets/shot_feedback.jpg" data-key="SHOT_FEEDBACK" alt=""></div><p class="device-cap">סיום ודירוג</p></div>
-    </div>
-    <div class="proto-links reveal">
-      <a class="primary" href="https://ezra-baktana.netlify.app" target="_blank" rel="noopener">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2.2"/><line x1="11" y1="18.2" x2="13" y2="18.2"/></svg>
+</div>
+</section><section class="section-pad" data-theme="light" id="screens">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">SCREENS AT A GLANCE</span></div>
+<h2>שנים עשר מסכים, שני מסעות</h2>
+<p class="lede">מנעילת הטלפון ועד לדירוג בסיום — כל מסך כפי שהוא נראה באב הטיפוס עצמו, משני צדי הפלטפורמה.</p>
+<p class="scenario-context">התרחישים והמסכים מדגימים את חוויית השירות המתוכננת במסגרת הפרויקט האקדמי.</p></div>
+<div class="gallery-row-label giver">מסע נועם — הנותן</div>
+<div class="gallery-strip reveal">
+<div class="gallery-item"><button aria-label="הגדלת מסך: נעילה + התראה" class="screen-zoom" data-caption="נעילה + התראה" data-image="assets/shot_lock.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 1 נעילה + התראה" data-key="SHOT_LOCK_THUMB" decoding="async" loading="lazy" src="assets/shot_lock_thumb.jpg"/></div></button><div class="num">1</div><p>נעילה + התראה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: בית / מפה" class="screen-zoom" data-caption="בית / מפה" data-image="assets/shot_home.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 2 בית / מפה" data-key="SHOT_HOME_THUMB" decoding="async" loading="lazy" src="assets/shot_home_thumb.jpg"/></div></button><div class="num">2</div><p>בית / מפה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: פרטי הבקשה" class="screen-zoom" data-caption="פרטי הבקשה" data-image="assets/shot_details.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 3 פרטי הבקשה" data-key="SHOT_DETAILS_THUMB" decoding="async" loading="lazy" src="assets/shot_details_thumb.jpg"/></div></button><div class="num">3</div><p>פרטי הבקשה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: ניווט" class="screen-zoom" data-caption="ניווט" data-image="assets/shot_nav.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 4 ניווט" data-key="SHOT_NAV_THUMB" decoding="async" loading="lazy" src="assets/shot_nav_thumb.jpg"/></div></button><div class="num">4</div><p>ניווט</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: צ'אט פנימי" class="screen-zoom" data-caption="צ'אט פנימי" data-image="assets/shot_chat.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 5 צ'אט פנימי" data-key="SHOT_CHAT_THUMB" decoding="async" loading="lazy" src="assets/shot_chat_thumb.jpg"/></div></button><div class="num">5</div><p>צ'אט פנימי</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: פידבק וסיום" class="screen-zoom" data-caption="פידבק וסיום" data-image="assets/shot_feedback.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 6 פידבק וסיום" data-key="SHOT_FEEDBACK_THUMB" decoding="async" loading="lazy" src="assets/shot_feedback_thumb.jpg"/></div></button><div class="num">6</div><p>פידבק וסיום</p></div>
+</div>
+<div class="gallery-row-label receiver">מסע מאיה — המבקשת</div>
+<div class="gallery-strip reveal">
+<div class="gallery-item"><button aria-label="הגדלת מסך: בית / מפה" class="screen-zoom" data-caption="בית / מפה" data-image="assets/maya_home.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 1 בית / מפה" decoding="async" loading="lazy" src="assets/maya_home.jpg"/></div></button><div class="num">1</div><p>בית / מפה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: בקשת עזרה" class="screen-zoom" data-caption="בקשת עזרה" data-image="assets/maya_request.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 2 בקשת עזרה" decoding="async" loading="lazy" src="assets/maya_request.jpg"/></div></button><div class="num">2</div><p>בקשת עזרה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: מתנדב נענה" class="screen-zoom" data-caption="מתנדב נענה" data-image="assets/maya_match.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 3 מתנדב נענה" decoding="async" loading="lazy" src="assets/maya_match.jpg"/></div></button><div class="num">3</div><p>מתנדב נענה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: מעקב אחרי בקשה" class="screen-zoom" data-caption="מעקב אחרי בקשה" data-image="assets/maya_tracking.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 4 מעקב אחרי בקשה" decoding="async" loading="lazy" src="assets/maya_tracking.jpg"/></div></button><div class="num">4</div><p>מעקב אחרי בקשה</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: צ'אט פנימי" class="screen-zoom" data-caption="צ'אט פנימי" data-image="assets/maya_chat.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 5 צ'אט פנימי" decoding="async" loading="lazy" src="assets/maya_chat.jpg"/></div></button><div class="num">5</div><p>צ'אט פנימי</p></div>
+<div class="gallery-item"><button aria-label="הגדלת מסך: סיום ודירוג" class="screen-zoom" data-caption="סיום ודירוג" data-image="assets/maya_complete.jpg" type="button"><div class="gallery-frame"><img alt="מתוך אב הטיפוס והמחקר: 6 סיום ודירוג" decoding="async" loading="lazy" src="assets/maya_complete.jpg"/></div></button><div class="num">6</div><p>סיום ודירוג</p></div>
+</div>
+</div>
+</section><section class="section-pad" data-theme="dark" id="prototype"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i><i style="--x:12%;--y:17%;--delay:-13.6s;--duration:30s"></i><i style="--x:49%;--y:40%;--delay:-15.299999999999999s;--duration:34s"></i><i style="--x:86%;--y:63%;--delay:-17.0s;--duration:18s"></i><i style="--x:26%;--y:86%;--delay:-18.7s;--duration:22s"></i><i style="--x:63%;--y:20%;--delay:-20.4s;--duration:26s"></i><i style="--x:3%;--y:43%;--delay:-22.099999999999998s;--duration:30s"></i><i style="--x:40%;--y:66%;--delay:-23.8s;--duration:34s"></i><i style="--x:77%;--y:0%;--delay:-25.5s;--duration:18s"></i><i style="--x:22%;--y:14%;--delay:-20.8s;--duration:26s"></i><i style="--x:65%;--y:43%;--delay:-22.1s;--duration:30s"></i><i style="--x:11%;--y:72%;--delay:-23.400000000000002s;--duration:34s"></i><i style="--x:54%;--y:10%;--delay:-24.7s;--duration:38s"></i><i style="--x:0%;--y:39%;--delay:-26.0s;--duration:22s"></i><i style="--x:43%;--y:68%;--delay:-27.3s;--duration:26s"></i><i style="--x:86%;--y:6%;--delay:-28.6s;--duration:30s"></i><i style="--x:32%;--y:35%;--delay:-29.900000000000002s;--duration:34s"></i><i style="--x:75%;--y:64%;--delay:-31.200000000000003s;--duration:38s"></i><i style="--x:21%;--y:2%;--delay:-32.5s;--duration:22s"></i><i style="--x:64%;--y:31%;--delay:-33.800000000000004s;--duration:26s"></i><i style="--x:10%;--y:60%;--delay:-35.1s;--duration:30s"></i><i style="--x:53%;--y:89%;--delay:-36.4s;--duration:34s"></i><i style="--x:96%;--y:27%;--delay:-37.7s;--duration:38s"></i><i style="--x:42%;--y:56%;--delay:-39.0s;--duration:22s"></i><i style="--x:85%;--y:85%;--delay:-40.300000000000004s;--duration:26s"></i></div>
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">THE PROTOTYPE — REAL SCREENS</span></div>
+<h2>האב טיפוס: מסע נועם, מסך אחר מסך</h2>
+<p class="lede">React Native + Expo · אב־טיפוס אינטראקטיבי לצורכי הדגמה אקדמית · צילומי מסך מתוך אב הטיפוס. אינו שירות פעיל לקבלת עזרה בעולם האמיתי.</p>
+</div>
+<div class="stat-row reveal">
+<div class="stat-chip"><b><span class="count-up" data-target="12">0</span></b> מסכים</div>
+<div class="stat-chip"><b><span class="count-up" data-target="2">0</span></b> מסעות פרסונה</div>
+<div class="stat-chip">React Native + Expo</div>
+</div>
+<div class="device-strip reveal">
+<div><div class="device"><img alt="מסך הדגמה: נעילה + התראת פוש" data-key="SHOT_LOCK" decoding="async" loading="lazy" src="assets/shot_lock.jpg"/></div><p class="device-cap">נעילה + התראת פוש</p></div>
+<div><div class="device"><img alt="מסך הדגמה: בית / מפה" data-key="SHOT_HOME" decoding="async" loading="lazy" src="assets/shot_home.jpg"/></div><p class="device-cap">בית / מפה</p></div>
+<div><div class="device"><img alt="מסך הדגמה: פרטי הבקשה" data-key="SHOT_DETAILS" decoding="async" loading="lazy" src="assets/shot_details.jpg"/></div><p class="device-cap">פרטי הבקשה</p></div>
+<div><div class="device"><img alt="מסך הדגמה: ניווט" data-key="SHOT_NAV" decoding="async" loading="lazy" src="assets/shot_nav.jpg"/></div><p class="device-cap">ניווט</p></div>
+<div><div class="device"><img alt="מסך הדגמה: צ'אט פנימי" data-key="SHOT_CHAT" decoding="async" loading="lazy" src="assets/shot_chat.jpg"/></div><p class="device-cap">צ'אט פנימי</p></div>
+<div><div class="device"><img alt="מסך הדגמה: סיום ודירוג" data-key="SHOT_FEEDBACK" decoding="async" loading="lazy" src="assets/shot_feedback.jpg"/></div><p class="device-cap">סיום ודירוג</p></div>
+</div>
+<div class="proto-links reveal">
+<a aria-label="אב טיפוס — ezra-baktana.netlify.app — מעבר לעמוד ההסכמה להדגמה" class="primary prototype-glow" href="demo.html" rel="noopener">
+<svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15"><rect height="20" rx="2.2" width="10" x="7" y="2"></rect><line x1="11" x2="13" y1="18.2" y2="18.2"></line></svg>
         אב טיפוס — ezra-baktana.netlify.app
       </a>
-    </div>
-  </div>
-</section>
-
-<!-- ================= TESTING ================= -->
-<section id="testing" class="section-pad" data-theme="light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="en">WHAT WE LEARNED FROM TESTING</span></div>
-      <h2>מה למדנו מהבדיקות</h2>
-      <p class="lede">שני נבדקים, אחד לכל פרסונה · ריאיון פתוח וצילום וידאו · אב טיפוס מתקדם, אחרי גרסה ראשונה.</p>
-    </div>
-
-    <div class="test-subjects">
-      <div class="subject-card tilt reveal reveal-delay-1">
-        <div class="photo"><img src="assets/test_photo1.jpg" data-key="TEST_PHOTO1" alt=""></div>
-        <div class="info">
-          <b>נבדק א׳</b>
-          <div class="persona-tag">מדמה את יהונתן — נותן עזרה</div>
-          <div class="scenario">תרחיש: איתור ולקיחת בקשת העזרה הקיימת של משה — הרמת קניות הביתה.</div>
-          <div class="result">הצליח לאתר ולקחת את הבקשה באופן עצמאי</div>
-        </div>
-      </div>
-      <div class="subject-card tilt reveal reveal-delay-2">
-        <div class="photo"><img src="assets/test_photo2.jpg" data-key="TEST_PHOTO2" alt=""></div>
-        <div class="info">
-          <b>נבדקת ב׳</b>
-          <div class="persona-tag">מדמה את מאיה — מבקשת עזרה</div>
-          <div class="scenario">תרחיש: פתיחת בקשת עזרה עצמאית באפליקציה — עזרה בהתקנת טלוויזיה בבית.</div>
-          <div class="result">הצליחה להשלים את פתיחת הבקשה באופן עצמאי</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="test-grid">
-      <div class="test-card tilt reveal reveal-delay-1">
-        <div class="level">רמת ממשק</div>
-        <div class="verbatim">"לא מצליח לתפעל"</div>
-        <div class="component">מסך ביצוע המשימה · סליידר "החלק לסיום"</div>
-        <p class="finding">שני הנבדקים, בנפרד לגמרי, ציינו מיוזמתם העדפה לכפתור פשוט על פני מחוות swipe — המחווה אינה מספיק מוכרת, ויש חשש מהפעלה בשוגג.</p>
-      </div>
-      <div class="test-card tilt reveal reveal-delay-2">
-        <div class="level">צרכי משתמש</div>
-        <div class="verbatim">"חסר לי משהו, מסובך לי"</div>
-        <div class="component">כרטיס פרופיל המתנדב לפני אישור</div>
-        <p class="finding">נבדקת ב׳, בתרחיש התקנת הטלוויזיה: הפרופיל מציג דירוג כללי ואחוז המלצה בלבד, בלי מידע על מיומנות רלוונטית — במשימה טכנית, כוונה טובה לבדה אינה מספיקה.</p>
-      </div>
-      <div class="test-card tilt reveal reveal-delay-3">
-        <div class="level">מודל מנטלי</div>
-        <div class="verbatim">"לא הבנתי"</div>
-        <div class="component">טופס הבקשה · שדה "כמה רחוק המבקש/ת ממני?"</div>
-        <p class="finding">נבדקת ב׳, בתרחיש פתיחת בקשה: הניסוח כתוב מנקודת מבט של מתנדב שצופה בבקשה, אך מוצג למבקשת שממלאת בקשה על עצמה — בלבול לגבי מי "המבקש".</p>
-      </div>
-    </div>
-
-    <div class="fix-strip">
-      <div class="fix-card tilt reveal reveal-delay-1">
-        <img src="assets/fix_complete.jpg" data-key="FIX_COMPLETE" alt="">
-        <div><div class="fix-label">תיקון 1 · רמת ממשק</div><p>הוחלף הסליידר "החלק לסיום" בכפתור "סיימתי משימה", שפותח חלון אישור: "סיימת לעזור למשה?"</p></div>
-      </div>
-      <div class="fix-card tilt reveal reveal-delay-2">
-        <img src="assets/fix_cancel.jpg" data-key="FIX_CANCEL" alt="">
-        <div><div class="fix-label">תיקון 2 · רמת ממשק</div><p>נוסף חלון אישור לפני ביטול בפועל: "האם אתה בטוח שברצונך לבטל?" — כדי למנוע ביטול בשוגג כשמתנדב כבר בדרך.</p></div>
-      </div>
-      <div class="fix-card tilt reveal reveal-delay-3">
-        <img src="assets/fix_mental_model.jpg" alt="">
-        <div><div class="fix-label">תיקון 3 · מודל מנטלי</div><p>שדה המרחק נוסח מחדש מנקודת המבט של הממלא/ת: "עד כמה רחוק אפשר שהמתנדב יהיה?" עם שלוש רמות ברורות (ממש קרוב · כמה רחובות · קצה השכונה).</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= CLOSING ================= -->
-<section id="closing" data-theme="dark">
-  <div class="grain"></div>
-  <img class="logo-badge" src="assets/logo.png" data-key="LOGO" alt="עזרה בקטנה">
-  <h2 class="reveal mask-reveal"><span>תודה</span></h2>
-  <p class="sub reveal">עזרה בקטנה — שכנים עוזרים לשכנים, בקטנה</p>
-  <div class="proto-links reveal">
-    <a class="primary" href="https://ezra-baktana.netlify.app" target="_blank" rel="noopener">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2.2"/><line x1="11" y1="18.2" x2="13" y2="18.2"/></svg>
+<p class="prototype-status">אב־טיפוס לצורכי הדגמה בלבד</p></div>
+</div>
+</section><section class="section-pad" data-theme="light" id="testing">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="eyebrow"><span class="en" dir="ltr" lang="en">WHAT WE LEARNED FROM TESTING</span></div>
+<h2>מה למדנו מהבדיקות</h2>
+<p class="lede">שני נבדקים, אחד לכל פרסונה · ריאיון פתוח וצילום וידאו · אב טיפוס מתקדם, אחרי גרסה ראשונה.</p>
+</div>
+<div class="test-subjects">
+<div class="subject-card tilt reveal reveal-delay-1">
+<div class="photo"><img alt="מתוך אב הטיפוס והמחקר: נבדק א׳ מדמה את יהונתן — נותן עזרה תרחיש: איתור ולקיחת בקשת העזרה הקיימת של משה — הרמת קניות הביתה. הצליח לאתר ולקחת את הבקשה באופן עצמאי" data-key="TEST_PHOTO1" decoding="async" loading="lazy" src="assets/test_photo1.jpg"/></div>
+<div class="info">
+<b>נבדק א׳</b>
+<div class="persona-tag">מדמה את יהונתן — נותן עזרה</div>
+<div class="scenario">תרחיש: איתור ולקיחת בקשת העזרה הקיימת של משה — הרמת קניות הביתה.</div>
+<div class="result">הצליח לאתר ולקחת את הבקשה באופן עצמאי</div>
+</div>
+</div>
+<div class="subject-card tilt reveal reveal-delay-2">
+<div class="photo"><img alt="מתוך אב הטיפוס והמחקר: נבדקת ב׳ מדמה את מאיה — מבקשת עזרה תרחיש: פתיחת בקשת עזרה עצמאית באפליקציה — עזרה בהתקנת טלוויזיה בבית. הצליחה להשלים את פתיחת הבקשה באופן עצמאי" data-key="TEST_PHOTO2" decoding="async" loading="lazy" src="assets/test_photo2.jpg"/></div>
+<div class="info">
+<b>נבדקת ב׳</b>
+<div class="persona-tag">מדמה את מאיה — מבקשת עזרה</div>
+<div class="scenario">תרחיש: פתיחת בקשת עזרה עצמאית באפליקציה — עזרה בהתקנת טלוויזיה בבית.</div>
+<div class="result">הצליחה להשלים את פתיחת הבקשה באופן עצמאי</div>
+</div>
+</div>
+</div>
+<div class="test-grid">
+<div class="test-card tilt reveal reveal-delay-1">
+<div class="level">רמת ממשק</div>
+<div class="verbatim">"לא מצליח לתפעל"</div>
+<div class="component">מסך ביצוע המשימה · סליידר "החלק לסיום"</div>
+<p class="finding">שני הנבדקים, בנפרד לגמרי, ציינו מיוזמתם העדפה לכפתור פשוט על פני מחוות swipe — המחווה אינה מספיק מוכרת, ויש חשש מהפעלה בשוגג.</p>
+</div>
+<div class="test-card tilt reveal reveal-delay-2">
+<div class="level">צרכי משתמש</div>
+<div class="verbatim">"חסר לי משהו, מסובך לי"</div>
+<div class="component">כרטיס פרופיל המתנדב לפני אישור</div>
+<p class="finding">נבדקת ב׳, בתרחיש התקנת הטלוויזיה: הפרופיל מציג דירוג כללי ואחוז המלצה בלבד, בלי מידע על מיומנות רלוונטית — במשימה טכנית, כוונה טובה לבדה אינה מספיקה.</p>
+</div>
+<div class="test-card tilt reveal reveal-delay-3">
+<div class="level">מודל מנטלי</div>
+<div class="verbatim">"לא הבנתי"</div>
+<div class="component">טופס הבקשה · שדה "כמה רחוק המבקש/ת ממני?"</div>
+<p class="finding">נבדקת ב׳, בתרחיש פתיחת בקשה: הניסוח כתוב מנקודת מבט של מתנדב שצופה בבקשה, אך מוצג למבקשת שממלאת בקשה על עצמה — בלבול לגבי מי "המבקש".</p>
+</div>
+</div>
+<div class="fix-strip">
+<div class="fix-card tilt reveal reveal-delay-1">
+<img alt='מתוך אב הטיפוס והמחקר: תיקון 1 · רמת ממשק הוחלף הסליידר "החלק לסיום" בכפתור "סיימתי משימה", שפותח חלון אישור: "סיימת לעזור למשה?"' data-key="FIX_COMPLETE" decoding="async" loading="lazy" src="assets/fix_complete.jpg"/>
+<div><div class="fix-label">תיקון 1 · רמת ממשק</div><p>הוחלף הסליידר "החלק לסיום" בכפתור "סיימתי משימה", שפותח חלון אישור: "סיימת לעזור למשה?"</p></div>
+</div>
+<div class="fix-card tilt reveal reveal-delay-2">
+<img alt='מתוך אב הטיפוס והמחקר: תיקון 2 · רמת ממשק נוסף חלון אישור לפני ביטול בפועל: "האם אתה בטוח שברצונך לבטל?" — כדי למנוע ביטול בשוגג כשמתנדב כבר בדרך.' data-key="FIX_CANCEL" decoding="async" loading="lazy" src="assets/fix_cancel.jpg"/>
+<div><div class="fix-label">תיקון 2 · רמת ממשק</div><p>נוסף חלון אישור לפני ביטול בפועל: "האם אתה בטוח שברצונך לבטל?" — כדי למנוע ביטול בשוגג כשמתנדב כבר בדרך.</p></div>
+</div>
+<div class="fix-card tilt reveal reveal-delay-3">
+<img alt='מתוך אב הטיפוס והמחקר: תיקון 3 · מודל מנטלי שדה המרחק נוסח מחדש מנקודת המבט של הממלא/ת: "עד כמה רחוק אפשר שהמתנדב יהיה?" עם שלוש רמות ברורות (ממש קרוב · כמה רחובות · קצה השכונה).' decoding="async" loading="lazy" src="assets/fix_mental_model.jpg"/>
+<div><div class="fix-label">תיקון 3 · מודל מנטלי</div><p>שדה המרחק נוסח מחדש מנקודת המבט של הממלא/ת: "עד כמה רחוק אפשר שהמתנדב יהיה?" עם שלוש רמות ברורות (ממש קרוב · כמה רחובות · קצה השכונה).</p></div>
+</div>
+</div>
+</div>
+</section><section data-theme="dark" id="closing"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i><i style="--x:12%;--y:17%;--delay:-13.6s;--duration:30s"></i><i style="--x:49%;--y:40%;--delay:-15.299999999999999s;--duration:34s"></i><i style="--x:86%;--y:63%;--delay:-17.0s;--duration:18s"></i><i style="--x:26%;--y:86%;--delay:-18.7s;--duration:22s"></i><i style="--x:63%;--y:20%;--delay:-20.4s;--duration:26s"></i><i style="--x:3%;--y:43%;--delay:-22.099999999999998s;--duration:30s"></i><i style="--x:40%;--y:66%;--delay:-23.8s;--duration:34s"></i><i style="--x:77%;--y:0%;--delay:-25.5s;--duration:18s"></i><i style="--x:22%;--y:14%;--delay:-20.8s;--duration:26s"></i><i style="--x:65%;--y:43%;--delay:-22.1s;--duration:30s"></i><i style="--x:11%;--y:72%;--delay:-23.400000000000002s;--duration:34s"></i><i style="--x:54%;--y:10%;--delay:-24.7s;--duration:38s"></i><i style="--x:0%;--y:39%;--delay:-26.0s;--duration:22s"></i><i style="--x:43%;--y:68%;--delay:-27.3s;--duration:26s"></i><i style="--x:86%;--y:6%;--delay:-28.6s;--duration:30s"></i><i style="--x:32%;--y:35%;--delay:-29.900000000000002s;--duration:34s"></i><i style="--x:75%;--y:64%;--delay:-31.200000000000003s;--duration:38s"></i><i style="--x:21%;--y:2%;--delay:-32.5s;--duration:22s"></i><i style="--x:64%;--y:31%;--delay:-33.800000000000004s;--duration:26s"></i><i style="--x:10%;--y:60%;--delay:-35.1s;--duration:30s"></i><i style="--x:53%;--y:89%;--delay:-36.4s;--duration:34s"></i><i style="--x:96%;--y:27%;--delay:-37.7s;--duration:38s"></i><i style="--x:42%;--y:56%;--delay:-39.0s;--duration:22s"></i><i style="--x:85%;--y:85%;--delay:-40.300000000000004s;--duration:26s"></i></div><svg class="section-wave wave-closing" viewBox="0 0 1440 64" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 32 C360 66 990 -4 1440 32 L1440 64 L0 64 Z"/></svg>
+<img alt="עזרה בקטנה" class="logo-badge" data-key="LOGO" decoding="async" loading="lazy" src="assets/logo.png"/>
+<h2 class="reveal mask-reveal"><span>תודה</span></h2>
+<p class="sub reveal">עזרה בקטנה — שכנים עוזרים לשכנים, בקטנה</p>
+<div class="proto-links reveal">
+<a aria-label="ezra-baktana.netlify.app — מעבר לעמוד ההסכמה להדגמה" class="primary prototype-glow" href="demo.html" rel="noopener">
+<svg aria-hidden="true" fill="none" focusable="false" height="15" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="15"><rect height="20" rx="2.2" width="10" x="7" y="2"></rect><line x1="11" x2="13" y1="18.2" y2="18.2"></line></svg>
       ezra-baktana.netlify.app
     </a>
-  </div>
-  <div class="team">
+<p class="prototype-status">אב־טיפוס לצורכי הדגמה בלבד</p></div>
+<div class="team">
     עדיאל חמו · רן בן חמו · חן קדוש · עידו אילוז · דרור יוגב · עידו שדמי
     <div class="school">האקדמית עמק יזרעאל ע"ש מקס שטרן</div>
-  </div>
-  <div class="foot-line">Neighbors helping neighbors, one small favor at a time.</div>
-</section>
-
-
-
+</div>
+<div class="foot-line">Neighbors helping neighbors, one small favor at a time.</div>
+</section></main>
+<!-- ================= HERO ================= -->
+<!-- ================= PROBLEM ================= -->
+<!-- ================= SOLUTION ================= -->
+<!-- ================= MARKET & COMPETITION ================= -->
+<!-- ================= REGULATORY ================= -->
+<!-- ================= PERSONAS ================= -->
+<!-- ================= JOURNEY & INSIGHT ================= -->
+<!-- ================= DUAL JOURNEYS ================= -->
+<!-- ================= SCREENS GALLERY ================= -->
+<!-- ================= PROTOTYPE ================= -->
+<!-- ================= TESTING ================= -->
+<!-- ================= CLOSING ================= -->
 <!-- Real 3D (Three.js) for the hero product visualization, and GSAP-driven transitions.
      Everything below degrades gracefully: if either library fails to load, or the
      visitor has WebGL disabled, or prefers-reduced-motion is set, the existing
      static hero (already inline above) and the plain reveal system keep working
      exactly as before — nothing here is required for the page to be correct. -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-<script src="script.js"></script>
-</body>
+<footer class="site-footer"><div class="ambient-particles" aria-hidden="true"><span class="galaxy-orbit"></span><i style="--x:7%;--y:11%;--delay:-0.0s;--duration:18s"></i><i style="--x:44%;--y:34%;--delay:-1.7s;--duration:22s"></i><i style="--x:81%;--y:57%;--delay:-3.4s;--duration:26s"></i><i style="--x:21%;--y:80%;--delay:-5.1s;--duration:30s"></i><i style="--x:58%;--y:14%;--delay:-6.8s;--duration:34s"></i><i style="--x:95%;--y:37%;--delay:-8.5s;--duration:18s"></i><i style="--x:35%;--y:60%;--delay:-10.2s;--duration:22s"></i><i style="--x:72%;--y:83%;--delay:-11.9s;--duration:26s"></i></div><a class="footer-brand" href="index.html">עזרה בקטנה</a><p>פרויקט אקדמי · עזרה קטנה מתחילה בחיבור.</p><nav aria-label="מידע ושקיפות"><a href="terms.html">תנאי שימוש</a><a href="privacy.html">מדיניות פרטיות</a><a href="accessibility.html">הצהרת נגישות</a><button data-open="access-panel">העדפות נגישות</button></nav><small>פרויקט גמר אקדמי · אינו שירות פעיל. המסכים והתרחישים נועדו להדגמה בלבד.</small></footer><script defer="" src="script.319da151ea.js"></script><script defer="" src="premium.704cae0bd0.js"></script></body>
 </html>

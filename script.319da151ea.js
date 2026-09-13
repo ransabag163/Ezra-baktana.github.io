@@ -32,3 +32,5 @@
  // Consent is intentionally not persisted or misrepresented as a server audit record.
  const form=document.getElementById('demo-consent');if(form){const accept=form.querySelector('#accept-demo'),go=form.querySelector('button[type=submit]');go.disabled=!accept.checked;accept.addEventListener('change',()=>go.disabled=!accept.checked);form.addEventListener('submit',e=>{e.preventDefault();if(!accept.checked){accept.focus();return}location.assign('https://ezra-baktana.netlify.app')})}
 })();
+
+(()=>{if(document.querySelector('#hero')||!('IntersectionObserver' in window))return;const observer=new IntersectionObserver(entries=>entries.forEach(entry=>entry.target.classList.toggle('galaxy-active',entry.isIntersecting)));document.querySelectorAll('.site-footer').forEach(e=>observer.observe(e))})();

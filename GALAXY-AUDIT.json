@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hero",
+    "count": 32,
+    "moves": true
+  },
+  {
+    "id": "solution",
+    "count": 32,
+    "moves": true
+  },
+  {
+    "id": "journey",
+    "count": 32,
+    "moves": true
+  },
+  {
+    "id": "prototype",
+    "count": 32,
+    "moves": true
+  },
+  {
+    "id": "closing",
+    "count": 32,
+    "moves": true
+  },
+  {
+    "reduced": true
+  },
+  {
+    "layersStopped": true,
+    "orbitStopped": true
+  },
+  {
+    "width": 320,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "overflow": false
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "file": "index.html",
+    "contrast": false,
+    "violations": []
+  },
+  {
+    "contrast": false,
+    "bubbles": [
+      {
+        "text": "rgb(21, 58, 42)",
+        "background": "rgb(210, 245, 226)"
+      },
+      {
+        "text": "rgb(244, 255, 248)",
+        "background": "rgb(37, 77, 62)"
+      },
+      {
+        "text": "rgb(21, 58, 42)",
+        "background": "rgb(210, 245, 226)"
+      }
+    ]
+  },
+  {
+    "file": "terms.html",
+    "contrast": false,
+    "violations": []
+  },
+  {
+    "file": "privacy.html",
+    "contrast": false,
+    "violations": []
+  },
+  {
+    "file": "accessibility.html",
+    "contrast": false,
+    "violations": []
+  },
+  {
+    "file": "demo.html",
+    "contrast": false,
+    "violations": []
+  },
+  {
+    "file": "index.html",
+    "contrast": true,
+    "violations": []
+  },
+  {
+    "contrast": true,
+    "bubbles": [
+      {
+        "text": "rgb(21, 58, 42)",
+        "background": "rgb(210, 245, 226)"
+      },
+      {
+        "text": "rgb(244, 255, 248)",
+        "background": "rgb(37, 77, 62)"
+      },
+      {
+        "text": "rgb(21, 58, 42)",
+        "background": "rgb(210, 245, 226)"
+      }
+    ]
+  },
+  {
+    "file": "terms.html",
+    "contrast": true,
+    "violations": []
+  },
+  {
+    "file": "privacy.html",
+    "contrast": true,
+    "violations": []
+  },
+  {
+    "file": "accessibility.html",
+    "contrast": true,
+    "violations": []
+  },
+  {
+    "file": "demo.html",
+    "contrast": true,
+    "violations": []
+  },
+  {
+    "tilt": "1.7266916120985343deg"
+  },
+  {
+    "reducedTransform": "none"
+  }
+]

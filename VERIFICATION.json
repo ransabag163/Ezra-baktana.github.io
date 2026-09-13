@@ -1,0 +1,396 @@
+{
+  "cases": [
+    {
+      "file": "index.html",
+      "width": 320,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 360,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 414,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 667,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 844,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "index.html",
+      "axe": []
+    },
+    {
+      "file": "terms.html",
+      "width": 320,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 360,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 390,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 414,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 667,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 768,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 844,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 1024,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "width": 1440,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "terms.html",
+      "axe": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 320,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 360,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 390,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 414,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 667,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 768,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 844,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 1024,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "width": 1440,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "privacy.html",
+      "axe": []
+    },
+    {
+      "file": "accessibility.html",
+      "width": 320,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 360,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 390,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 414,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 667,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 768,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 844,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 1024,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "width": 1440,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "accessibility.html",
+      "axe": []
+    },
+    {
+      "file": "demo.html",
+      "width": 320,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 360,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 390,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 414,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 667,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 768,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 844,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 1024,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "width": 1440,
+      "overflow": false,
+      "notice": true,
+      "overlap": false
+    },
+    {
+      "file": "demo.html",
+      "axe": []
+    }
+  ],
+  "styles": {
+    "build": "2026-09-13-atmosphere",
+    "sheets": [
+      "http://127.0.0.1:8765/styles.css",
+      "http://127.0.0.1:8765/premium.css"
+    ],
+    "labels": [
+      {
+        "text": "INVESTOR PRESENTATION",
+        "size": "18px"
+      },
+      {
+        "text": "THE PROBLEM",
+        "size": "18px"
+      },
+      {
+        "text": "THE SOLUTION",
+        "size": "18px"
+      },
+      {
+        "text": "MARKET & COMPETITION",
+        "size": "18px"
+      },
+      {
+        "text": "USERS & PERSONAS",
+        "size": "18px"
+      },
+      {
+        "text": "SCENARIO & INSIGHT",
+        "size": "18px"
+      },
+      {
+        "text": "TWO SIDES, ONE PLATFORM",
+        "size": "18px"
+      },
+      {
+        "text": "SCREENS AT A GLANCE",
+        "size": "18px"
+      },
+      {
+        "text": "THE PROTOTYPE — REAL SCREENS",
+        "size": "18px"
+      },
+      {
+        "text": "WHAT WE LEARNED FROM TESTING",
+        "size": "18px"
+      }
+    ],
+    "openingCurve": "0 0 1440 64",
+    "closingCurve": "0 0 1440 64",
+    "solutionText": "rgb(224, 240, 229)",
+    "table": true,
+    "bubbles": 3
+  },
+  "largeTextOverflow": false,
+  "errors": [],
+  "missing": []
+}
