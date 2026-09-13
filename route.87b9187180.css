@@ -1,0 +1,33 @@
+/* The route is decorative: it sits in the page gutters and passes under the
+   English labels, so it never covers text and never needs a mask. */
+#main{position:relative;isolation:isolate}
+#route{position:fixed;inset:0;z-index:3;pointer-events:none;overflow:hidden;contain:layout paint}
+#route svg{display:block;width:100%;height:100%;overflow:hidden}
+
+.route-track,.route-fill{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke:#466A5A}
+.route-track{stroke-opacity:.2}
+.route-fill{stroke-opacity:.9}
+
+.route-stop{fill:#FAFAF7;stroke:#466A5A;stroke-width:1.5;stroke-opacity:.4}
+.route-stop.reached{fill:#466A5A;stroke-opacity:1}
+.route-stop.on-dark{fill:#0D2622;stroke:#A9E4CB}
+.route-stop.on-dark.reached{fill:#A9E4CB}
+
+.route-cursor .route-head{fill:#FAFAF7;stroke:#466A5A;stroke-width:3}
+.route-cursor .route-halo{fill:#466A5A;fill-opacity:.16}
+.route-cursor.on-dark .route-head{fill:#0D2622;stroke:#A9E4CB}
+.route-cursor.on-dark .route-halo{fill:#A9E4CB;fill-opacity:.18}
+
+/* Each stretch of the line takes the colour of the section behind it. */
+.route-track,.route-fill{stroke:url(#route-colours)}
+
+@media(max-width:760px){
+  .route-track,.route-fill{stroke-width:2}
+  .route-cursor .route-head{stroke-width:2.5}
+}
+
+/* Section titles stay put: a moving heading would drag the whole route with it. */
+#main .section-head.reveal,#main .section-head.reveal.is-pending{opacity:1!important;transform:none!important;transition:none!important}
+.section-head .eyebrow:before{opacity:0}
+
+@media print{#route{display:none}}

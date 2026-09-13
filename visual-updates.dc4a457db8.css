@@ -1,0 +1,79 @@
+/* Shared light palette, including the surfaces at dark/light transitions. */
+:root{--bg:#FAFAF7;--surface:#FFFFFF}
+body,section[data-theme="light"]{background:var(--bg)}
+section[data-theme="light"] :is(.pain-card,.test-card,.duo-card,.subject-card,.card,.persona-card,.reg-box,.fix-card,.flow-img),dialog,.image-dialog,.consent-form{background:var(--surface)}
+section[data-theme="light"] :is(.pain-card,.test-card,.duo-card,.subject-card,.card,.persona-card,.reg-box,.fix-card){border-color:#e4e7e2;box-shadow:0 2px 5px #182b1e06}
+.pain-card:before{display:none}
+.pain-card .quote,.fix-card img,.legal-main .notice,.page-project-status{background:var(--bg)}
+.comp-wrap{padding:0;background:var(--surface);border-color:#e4e7e2;border-radius:22px;box-shadow:0 2px 5px #182b1e06}
+.comparison{table-layout:fixed;min-width:0}
+.comparison caption{padding:18px 20px;text-align:right}
+.comparison th,.comparison td{border-left:0;border-bottom-color:#eceee9}
+.comparison .comp-hero{background:#f4f7f3}
+.comparison thead .comp-hero{border-radius:0;border-bottom:2px solid #46694f}
+.comparison tbody tr:last-child .comp-hero{border-radius:0}
+.comparison tbody tr:hover{background:var(--bg)}
+@media(max-width:760px){.comp-wrap{padding:0;border-radius:18px}.comparison caption{padding:14px;font-size:.8125rem;line-height:1.7}}
+#journey .journey-labels .dropout-word{font-size:inherit;line-height:inherit;color:inherit}
+
+@media(min-width:761px) and (max-width:1000px){.comparison thead th{white-space:normal;font-size:.9375rem}.comparison .comp-logo{display:flex;margin:0 auto 8px}.comparison th,.comparison td{padding:20px 10px}}
+
+/* Text hierarchy: green section labels, black copy, blue numeric accents. */
+:root{--text-black:#000000;--section-green:#466A5A;--number-blue:#2563EB;--number-on-dark:#FFFFFF;--dark-copy:#F3F6F4}
+section[data-theme="light"],section[data-theme="light"] *{color:var(--text-black)!important}
+section[data-theme="light"] .eyebrow,section[data-theme="light"] .eyebrow *{color:var(--section-green)!important}
+section[data-theme="light"] .num{color:var(--number-blue)!important;font-variant-numeric:tabular-nums}
+/* Restore the original white labels directly over the shaded photos. */
+section[data-theme="light"] .persona-photo .tag,section[data-theme="light"] .persona-photo .tag *{color:#FFFFFF!important}
+section[data-theme="light"] .role-chip{background:#FFFFFF}
+section[data-theme="light"] .duo-note{background:#FFFFFF;border:1px solid #e4e7e2}
+/* Neutral light copy on dark surfaces; pale controls keep dark text. */
+section[data-theme="dark"] :is(h1,h2,h3,.lede,.sub,.tagline,.project-label,.scenario-context,.flow-step p,.rt-head,.rt-quote,.rt-feature,.src,.solution-footer,.chart-note,.journey-callout p,.journey-callout .tag,.device-cap,.team,.school,.stage-info,.prototype-status,.stat-chip){color:var(--dark-copy)!important}
+section[data-theme="dark"] .journey-labels>span{color:var(--dark-copy)!important}
+section[data-theme="dark"] .journey-labels>.critical{color:#FFCEAD!important}
+#solution .stepnum{background:#183629;color:var(--number-on-dark)!important;border-color:#FFFFFF;box-shadow:0 4px 12px #00000030;font-variant-numeric:tabular-nums}
+section[data-theme="dark"] :is(.num,.count-up,.stat-chip b){color:var(--number-on-dark)!important;font-variant-numeric:tabular-nums}
+#journey-svg text{fill:var(--number-on-dark)}
+
+/* Blue glow for header hover and keyboard focus, without moving the layout. */
+.bar :is(nav a,.settings-button){transition:color .2s ease,text-shadow .2s ease,box-shadow .2s ease,border-color .2s ease}
+.bar :is(nav a,.settings-button):focus-visible{color:#6FD8BE;text-shadow:0 0 8px #2FAB92,0 0 20px #1E9B8455}@media(hover:hover) and (pointer:fine){.bar :is(nav a,.settings-button):hover{color:#6FD8BE;text-shadow:0 0 8px #2FAB92,0 0 20px #1E9B8455}}
+.bar nav a:is(:hover,:focus-visible):after{background:#2FAB92;box-shadow:0 0 8px #2FAB92,0 0 16px #3B82F6;transform:scaleX(1)}
+.bar .settings-button:is(:hover,:focus-visible){border-color:#6FD8BE;box-shadow:0 0 14px #1E9B8455,inset 0 0 10px #3B82F626}
+.bar :is(nav a,.settings-button):focus-visible{outline:2px solid #6FD8BE;outline-offset:4px}
+
+/* Cognitive review: comfortable targets, readable measures, honest affordances. */
+.bar nav a{min-height:44px;min-width:44px;justify-content:center}
+.bar .settings-button{min-height:44px}
+.section-head .lede,section[data-theme="dark"] .section-head .lede{max-width:55ch}
+.scenario-context,.source-note,.solution-footer,.legal-main>p,.legal-main>ul{max-width:60ch}
+.center :is(.lede,.scenario-context){margin-inline:auto}
+#hero .sub{max-width:50ch}
+.pain-card:hover,.persona-card:hover{box-shadow:0 2px 5px #182b1e06}
+#solution .flow-step:hover{background:linear-gradient(145deg,#284f40,#183629 75%);box-shadow:0 4px 0 #091c14,0 8px 0 -2px #314e3c,0 24px 36px -14px #000b,inset 0 1px 0 #e7ffef22}
+#solution .flow-step,#journey .journey-callout .card{transform:none;animation:none}
+.gallery-help{margin:0 0 24px;font-size:1rem}
+.screen-zoom:focus-visible{outline:3px solid #2563EB;outline-offset:6px}
+.image-status{min-height:1.7em;margin-top:16px}
+.image-retry{padding:8px 18px;border:1px solid currentColor;background:#FFFFFF;border-radius:10px;min-height:44px}
+.image-dialog img[hidden],.image-retry[hidden]{display:none}
+@media(max-width:760px){.bar nav{gap:8px}.consent-form label{min-height:44px}.legal-main p a,dialog p a{display:inline-flex;align-items:center;min-height:44px}}
+
+@media(max-width:760px){.section-pad{padding-block:60px}.section-head{margin-bottom:28px}}
+
+/* A continuous light solution section, with no panels around prose. */
+#solution[data-theme="light"]{background:#FAFAF7;color:#000000}
+#solution .ambient-particles,#solution .section-wave{display:none}
+#solution .reading-intro,#solution .solution-footer{background:none;border-radius:0;box-shadow:none;padding:0}
+#solution .reading-intro{margin-top:24px}
+#solution .reading-intro .lede{margin-top:0}
+#solution .flow-step,#solution .flow-step:hover{background:#FFFFFF;border:1px solid #E4E7E2;border-radius:22px;box-shadow:0 2px 5px #182B1E06;transform:none;backdrop-filter:none}
+#solution .stepnum{color:#2563EB!important;background:#EFF4FF;border:1px solid #C7D7FE;box-shadow:none;transform:none}
+#solution .flow-step h3,#solution .flow-step p{text-shadow:none;transform:none}
+#solution .solution-footer{border-top:1px solid #E4E7E2;padding-top:24px}
+#solution .stat-chip{background:#FFFFFF;border-color:#E4E7E2;box-shadow:none}
+#solution .research-table{background:#FFFFFF;border:1px solid #E4E7E2;border-radius:22px;padding:0;box-shadow:0 2px 5px #182B1E06;overflow:hidden}
+#solution .research-table .rt-head{background:#FAFAF7;border-bottom:1px solid #E4E7E2}
+#solution .research-table .rt-row{background:#FFFFFF;border-color:#ECEEE9}
+#solution .rt-arrow{opacity:1}
+
